@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: auto;
+    width: auto;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    flex-flow: row, wrap;
+}
+
+#left-slash {
+    height: 550px;
+    width: 150px;
+    background-color: rgb(80, 80, 80);
+}
+
+#box-foto {
+    display: flex;
+    justify-content: center;
+}
+
+#dados-experiencia {
+    height: 550px;
+    width: 300px;
+    background-color: white;
+}
