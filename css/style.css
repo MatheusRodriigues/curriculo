@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: rgb(240, 240, 191);
 }
 
 .container {
@@ -30,8 +30,8 @@ body {
 }
 
 #left-slash {
-    height: 550px;
-    width: 150px;
+    height: 580px;
+    width: 167px;
     background-color: rgb(80, 80, 80);
 }
 
@@ -41,7 +41,61 @@ body {
 }
 
 #dados-experiencia {
-    height: 550px;
+    height: 580px;
     width: 300px;
     background-color: white;
+}
+
+.titulos {
+    color: white;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.titulos-principais {
+    font-size: 19px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#dados-pessoais {
+    margin-left: 7px;
+    display: flex;
+    text-align: left;
+    flex-flow: column wrap;
+}
+
+#conteudo-dados-pessoais {
+    margin-top: 25px;
+    margin-left: 7px;
+    display: flex;
+    text-align: left;
+    flex-flow: column wrap;
+    line-height: 9px;
+}
+
+.informacoes {
+    color: white;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    line-height: 12px;
+}
+
+#endereco {
+    margin-top: 25px;
+}
+
+#numero-telefone {
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+#email {
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+#github {
+    margin-top: 25px;
+    line-height: 18px;
 }
