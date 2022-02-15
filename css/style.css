@@ -30,7 +30,7 @@ body {
 }
 
 #left-slash {
-    height: 580px;
+    height: 590px;
     width: 167px;
     background-color: rgb(80, 80, 80);
 }
@@ -42,20 +42,23 @@ body {
 
 #dados-experiencia {
     height: 580px;
-    width: 300px;
+    width: 350px;
     background-color: white;
+    display: flex;
+    text-align: left;
+    flex-flow: column wrap;
 }
 
 .titulos {
     color: white;
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-family: 'Cormorant Infant', serif;
 }
 
 .titulos-principais {
-    font-size: 19px;
+    font-size: 21px;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cormorant Infant', serif;
 }
 
 #dados-pessoais {
@@ -66,7 +69,7 @@ body {
 }
 
 #conteudo-dados-pessoais {
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 7px;
     display: flex;
     text-align: left;
@@ -82,20 +85,63 @@ body {
 }
 
 #endereco {
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 #numero-telefone {
-    margin-top: 25px;
+    margin-top: 35px;
     line-height: 20px;
 }
 
 #email {
-    margin-top: 25px;
+    margin-top: 35px;
     line-height: 20px;
 }
 
 #github {
-    margin-top: 25px;
+    margin-top: 35px;
     line-height: 18px;
+}
+
+#sobre-mim {
+    margin-top: 17px;
+    display: flex;
+    margin-left: 8px;
+    display: flex;
+    text-align: left;
+    flex-flow: column wrap;
+}
+
+#nome-principal {
+    font-size: 25px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+#hr-left {
+    background-color: white;
+}
+
+.informacoes-dados-experiencia {
+    color: rgb(102, 102, 102);
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    line-height: 12px;
+    margin-top: 20px;
+}
+
+.titulos-dados-experiencia {
+    color: black;
+    font-size: 16px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.espacamento-titulos {
+    margin-top: 20px;
+    line-height: 20px;
 }
